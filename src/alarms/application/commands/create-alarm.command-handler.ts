@@ -1,7 +1,7 @@
 import { CommandHandler, EventPublisher, ICommandHandler } from '@nestjs/cqrs';
 import { Logger } from '@nestjs/common';
 
-import { AlarmFactory } from './../../domain/factories/alarm.factorie';
+import { AlarmFactory } from '../../domain/factories/alarm.factory';
 import { CreateAlarmCommand } from './create-alarm.command';
 import { Alarm } from 'src/alarms/domain/alarm';
 

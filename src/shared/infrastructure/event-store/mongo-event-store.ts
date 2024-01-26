@@ -5,7 +5,7 @@ import { EVENT_STORE_CONNECTION } from '../../../core/core.constants';
 import { SerializableEvent } from '../../domain/interfaces/serializable-event';
 import { Event } from './schemas/event.schema';
 import { EventDeserializer } from './deserializers/event.deserializer';
-import { EventStore } from '../application/ports/event-store';
+import { EventStore } from '../../../shared/application/ports/event-store';
 
 @Injectable()
 export class MongoEventStore implements EventStore {

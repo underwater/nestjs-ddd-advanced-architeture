@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { SharedInfrastructureModule } from './infrastructure/shared-infrastructure.module';
-import { AggregateRehydrator } from './infrastructure/application/aggregate-rehydrator';
+import { AggregateRehydrator } from './application/aggregate-rehydrator';
 
 @Module({
   imports: [SharedInfrastructureModule],

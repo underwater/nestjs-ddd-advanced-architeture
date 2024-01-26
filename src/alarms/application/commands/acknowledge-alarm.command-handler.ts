@@ -3,7 +3,7 @@ import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 
 import { AcknowledgeAlarmCommand } from './acknowledge-alarm.command';
 import { Alarm } from '../../domain/alarm';
-import { AggregateRehydrator } from 'src/shared/infrastructure/application/aggregate-rehydrator';
+import { AggregateRehydrator } from '../../../shared/application/aggregate-rehydrator';
 
 @CommandHandler(AcknowledgeAlarmCommand)
 export class AcknowledgeAlarmCommandHandler

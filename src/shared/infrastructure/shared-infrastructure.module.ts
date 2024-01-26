@@ -8,7 +8,7 @@ import { EventSerializer } from './event-store/serializers/event.serializar';
 import { EventStorePublisher } from './event-store/publisers/event-store.publisher';
 import { EventsBridge } from './event-store/event-bridge';
 import { EventDeserializer } from './event-store/deserializers/event.deserializer';
-import { EventStore } from './application/ports/event-store';
+import { EventStore } from '../../shared/application/ports/event-store';
 
 @Module({
   imports: [

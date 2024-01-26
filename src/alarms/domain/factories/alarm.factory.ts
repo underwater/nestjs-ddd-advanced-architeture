@@ -12,7 +12,7 @@ export class AlarmFactory {
     name: string,
     severity: string,
     triggeredAt: Date,
-    items: Array<{ name: string; type: string }>,
+    items: Array<{ name: string; type: string }> = [],
   ): Alarm {
     const alarmId = randomUUID();
     const alarmSeverity = new AlarmSeverity(severity as AlarmSeverity['value']);

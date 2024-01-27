@@ -4,7 +4,7 @@ import { Model } from 'mongoose';
 
 import { MaterializedAlarmView } from '../schemas/materialized-alarm-view.schema';
 import { AlarmReadModel } from 'src/alarms/domain/read-models/alarm-read.model';
-import { UpsertMaterializedAlarmRepository } from 'src/alarms/application/ports/upset-materalized-alarm.repository';
+import { UpsertMaterializedAlarmRepository } from 'src/alarms/application/ports/upsert-materialized-alarm.repository';
 
 @Injectable()
 export class OrmUpsertMaterializedAlarmRepository

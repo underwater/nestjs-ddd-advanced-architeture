@@ -1,4 +1,4 @@
-import { UpsertMaterializedAlarmRepository } from 'src/alarms/application/ports/upset-materalized-alarm.repository';
+import { UpsertMaterializedAlarmRepository } from 'src/alarms/application/ports/upsert-materialized-alarm.repository';
 import { FindAlarmsRepository } from 'src/alarms/application/ports/find-alarm.repositoy';
 import { AlarmReadModel } from './../../../../domain/read-models/alarm-read.model';
 

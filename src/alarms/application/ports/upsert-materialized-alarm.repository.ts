@@ -1,4 +1,4 @@
-import { AlarmReadModel } from './../../domain/read-models/alarm-read.model';
+import { AlarmReadModel } from '../../domain/read-models/alarm-read.model';
 
 export abstract class UpsertMaterializedAlarmRepository {
   abstract upsert(

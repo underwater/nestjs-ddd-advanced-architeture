@@ -2,7 +2,7 @@ import { FindAlarmsRepository } from 'src/alarms/application/ports/find-alarm.re
 import { Module } from '@nestjs/common';
 
 import { InMemoryAlarmRepository } from './repositories/alarm.repository';
-import { UpsertMaterializedAlarmRepository } from 'src/alarms/application/ports/upset-materalized-alarm.repository';
+import { UpsertMaterializedAlarmRepository } from 'src/alarms/application/ports/upsert-materialized-alarm.repository';
 import { CreateAlarmRepository } from 'src/alarms/application/ports/create-alarm.repository';
 
 @Module({

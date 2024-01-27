@@ -6,7 +6,7 @@ import { AlarmEntity } from './entities/alarm.entity';
 import { AlarmItemEntity } from './entities/alarm-item.entity';
 import { CreateAlarmRepository } from 'src/alarms/application/ports/create-alarm.repository';
 import { OrmCreateAlarmRepository } from './repositories/create-alarm.repository';
-import { UpsertMaterializedAlarmRepository } from 'src/alarms/application/ports/upset-materalized-alarm.repository';
+import { UpsertMaterializedAlarmRepository } from 'src/alarms/application/ports/upsert-materialized-alarm.repository';
 import { OrmUpsertMaterializedAlarmRepository } from './repositories/upsert-materialized-alarm.repository';
 import { FindAlarmsRepository } from 'src/alarms/application/ports/find-alarm.repositoy';
 import { OrmFindAlarmsRepository } from './repositories/find-alarm.repository';

@@ -3,7 +3,7 @@ import { EventsHandler, IEventHandler } from '@nestjs/cqrs';
 import { AlarmCreatedEvent } from '../../domain/events/alarm-created.event';
 
 import { SerializedEventPayload } from '../../../shared/domain/interfaces/serializable-event';
-import { UpsertMaterializedAlarmRepository } from '../ports/upset-materalized-alarm.repository';
+import { UpsertMaterializedAlarmRepository } from '../ports/upsert-materialized-alarm.repository';
 
 @EventsHandler(AlarmCreatedEvent)
 export class AlarmCreatedEventHandler

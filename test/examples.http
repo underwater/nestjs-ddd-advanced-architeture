@@ -3,7 +3,7 @@ POST http://localhost:3000/alarms HTTP/1.1
 Content-Type: application/json
 
 {
-    "name": "Alarm 1",
+    "name": "Alarm 2",
     "severity": "high"
 }
 

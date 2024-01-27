@@ -1,4 +1,4 @@
-import { FindAlarmsRepository } from 'src/alarms/application/ports/find-alarm.repositoy';
+import { FindAlarmsRepository } from 'src/alarms/application/ports/find-alarms.repositoy';
 import { Module } from '@nestjs/common';
 
 import { InMemoryAlarmRepository } from './repositories/alarm.repository';

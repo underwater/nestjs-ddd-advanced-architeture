@@ -8,7 +8,7 @@ import { CreateAlarmRepository } from 'src/alarms/application/ports/create-alarm
 import { OrmCreateAlarmRepository } from './repositories/create-alarm.repository';
 import { UpsertMaterializedAlarmRepository } from 'src/alarms/application/ports/upsert-materialized-alarm.repository';
 import { OrmUpsertMaterializedAlarmRepository } from './repositories/upsert-materialized-alarm.repository';
-import { FindAlarmsRepository } from 'src/alarms/application/ports/find-alarm.repositoy';
+import { FindAlarmsRepository } from 'src/alarms/application/ports/find-alarms.repositoy';
 import { OrmFindAlarmsRepository } from './repositories/find-alarm.repository';
 import { MongooseModule } from '@nestjs/mongoose';
 import {
